@@ -10,7 +10,7 @@
 "leaveChannel_switch": "Leaving the channel. %Bot_Name% will be here soon!",
 
 "channel_follower_start_failed": "Failed to start follower alert! Please try again in a minute",
-"channel_follower_stop_failed": "Failed to start follower alert! Please try again in a minute",
+"channel_follower_stop_failed": "Failed to stop follower alert! Please try again in a minute",
 "channel_follower_last": "Last Follower: @%User_Name%",
 "channel_follower_last_not_found": "No followers found!",
 "channel_follower_count": "Current followers: %Follower_Count%",
@@ -76,7 +76,7 @@
 "command_error_format_name": "Error! Invalid format (You must insert a name): Add commands by using !addCommand name msg",
 "command_error_format_message": "Error! Invalid format (You must insert a message): Add commands by using !addCommand name msg",
 "command_error_already_found": "The command !%Command_Name% was already found in my brain!",
-"command_error_failed_detail": "Failed to add auto message %Command_Name%! Please try again in a minute",
+"command_error_failed_detail": "Failed to add command %Command_Name%! Please try again in a minute",
 "command_error_failed": "Failed to add! Please try again in a minute",	
 	
 "countdwn_added": ""The countdown has been added my brain! Use !countdown to see how long is left on it."",
@@ -93,3 +93,11 @@
 "countdwn_error_format_numbers": "Error! Invalid format (Month/Day/Year/Hour/Minutes/Seconds must all be numbers!): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",	
 "countdwn_error_failed_detail": "Failed to add countdown! Please try again in a minute",
 "countdwn_error_failed": "Failed to add! Please try again in a minute",	
+
+"emote_added": "The emote !%Emote_Name% has been added to my brain!",
+"emote_error_format": "Error! Invalid format: Add emotes by using !addEmote name url",
+"emote_error_format_name": "Error! Invalid format (You must insert a name): Add emotes by using !addEmote name url",
+"emote_error_format_url": "Error! Invalid format (You must insert a url): Add emotes by using !addEmote name url",
+"emote_error_already_found": "The emote !%Emote_Name% was already found in my brain!",
+"emote_error_failed_detail": "Failed to add emote @%Emote_Name%! Please try again in a minute",
+"emote_error_failed": "Failed to add! Please try again in a minute",	
