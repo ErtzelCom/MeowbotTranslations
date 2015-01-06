@@ -1,0 +1,97 @@
+{
+	"reboot_incoming": "In ~2 minutes, I will be rebooting for maintenance. Maintenance can take around 5-10 minutes. I will auto-join the channel once I'm back online.",
+	"reboot_now": "Rebooting for maintenance. Maintenance can take around 5-10 minutes. I will auto-join the channel once I'm back online.",
+
+	"joinChannel_proccess": "Joining @%User_Name%'s channel!",
+	"joinChannel_success": "I have joined the channel!",
+	"joinChannel_error_failed": "Failed to join @%User_Name%'s channel!",
+	"joinChannel_error_exists": "Hi, its me %Bot_Name%, I'm already in the channel.",
+	
+	"leaveChannel_success": "Okay, I'll leave the channel :c",
+	"leaveChannel_switch": "Leaving the channel. %Bot_Name% will be here soon!",
+	
+	"channel_follower_start_failed": "Failed to start follower alert! Please try again in a minute",
+	"channel_follower_stop_failed": "Failed to start follower alert! Please try again in a minute",
+	"channel_follower_last": "Last Follower: @%User_Name%",
+	"channel_follower_last_not_found": "No followers found!",
+	"channel_follower_count": "Current followers: %Follower_Count%",
+		
+	"channel_language_success": "The channels language is now [%Language%]!",
+	"channel_language_failed": "Failed to edit language! Please try again in a minute",
+	"channel_language_failed_invalid": "The language [%Language%] is not supported yet! Get a list of supported languages here: http://www.meowbot.tv/Languages",
+	
+	"channel_poll_failed_already_on": "A poll is already running! To stop the poll early, type !stopPoll", 
+	"channel_poll_failed_not_exist": "No poll is currently going on!",
+	
+	"channel_blacklist_remove_success": "That word or phrase has been removed from my blackouts",
+	"channel_blacklist_remove_failed": "That word or phrase does not exist in my blackouts",
+	
+	"channel_lottery_start_success": "A lottery has started! To enter simply type  %Lottery_Key%  into the chat once...",
+	"channel_lottery_stop_success": "The lottery has ended and will not accept any more users! To get a winner any admin or mod can type !rollLottery",
+	"channel_lottery_failed_not_exist": "No lottery is going on!",
+	
+	"channel_raffle_stop_success": "The raffle has ended and will not accept any more users! To get a winner any admin or mod can type !rollRaffle",
+	"channel_raffle_failed_not_exist": "No raffle is going on!",
+		
+	"channel_payout_success": "All viewers %Points_Name% have been increased by %Points_Amount%!",
+	"channel_payout_decrease_success": "All viewers %Points_Name% have been decreased by %Points_Amount%!",
+	"channel_payout_failed": "Error with rewarding payouts! Some users may not of been given points.",
+	"channel_payout_decrease_failed": "Error with removing points! Some users may not of had their points removed.",
+	"channel_payout_failed_not_found": "Error No users found!",
+	
+	"channel_random_viewer_success": "I randomly selected @%User_Name% from the viewer list!",
+	"channel_random_viewer_failed": "No users found to pick from!",
+	
+	"channel_ignored_users_send_success": "Ignored Users: %User_List%",
+	"channel_ignored_users_send_failed_not_exist": "The channel has no ignored users!",
+	
+	"channel_commands_send_success": "Channel Commands: %Command_List%",
+	"channel_commands_send_failed_not_exist": "The channel has no commands!",
+	"channel_commands_send_failed_display": "Unable to display channel commands. You can view a full list here: http://meowbot.tv/Commands?%Channel_Name%",
+	
+	"channel_emotes_send_success": "Channel Emotes: %Emote_List%",
+	"channel_emotes_send_failed_not_exist": "The channel has no emotes!",
+	"channel_emotes_send_failed_display": "Unable to display channel emotes. You can view a full list here: http://meowbot.tv/Emoticons?%Channel_Name%",
+	
+	"channel_timers_send_success": "Channel Timers: %Timer_List%",
+	"channel_timers_send_failed_not_exist": "The channel has no timers!",
+	"channel_timers_send_failed_display": "Unable to display channel timers. You can view a full list here: http://meowbot.tv/Timers?%Channel_Name%",
+	
+	"channel_autoMessage_send_success": "Channel Auto Messages: %Auto_Message_List%",
+	"channel_autoMessage_send_failed_not_exist": "The channel has no auto messages!",
+	"channel_autoMessage_send_failed_display": "Unable to display channel auto messages. You can view a full list here: http://www.api.meowbot.tv/AutoMessages/%Channel_Name%",
+	
+	"general_error_own_channel": "Please type commands in your own channel after having %Bot_Name% join. The only commands in this channel are !join and !leave.",
+	"general_error_failed_add": "Failed to add! Please try again in a minute",	
+	
+	"autoMessage_added": "The auto message %Auto_Message_Name% has been added to my brain!",
+	"autoMessage_error_format": "Error! Invalid format: Add an auto message by using !addAutoMessage name msg",
+	"autoMessage_error_format_name": "Error! Invalid format (You must insert a name): Add an auto Message by using !addAutoMessage name msg",
+	"autoMessage_error_format_message": "Error! Invalid format (You must insert a message): Add an auto Message by using !addAutoMessage name msg",
+	"autoMessage_error_already_found": "The auto message %Auto_Message_Name% was already found in my brain!",
+	"autoMessage_error_failed_detail": "Failed to add auto message %Auto_Message_Name%! Please try again in a minute",
+	"autoMessage_error_failed": "Failed to add! Please try again in a minute",		
+	
+	"command_added": "The command !%Command_Name% has been added to my brain!",
+	"command_error_format": "Error! Invalid format: Add commands by using !addCommand name msg",
+	"command_error_format_name": "Error! Invalid format (You must insert a name): Add commands by using !addCommand name msg",
+	"command_error_format_message": "Error! Invalid format (You must insert a message): Add commands by using !addCommand name msg",
+	"command_error_already_found": "The command !%Command_Name% was already found in my brain!",
+	"command_error_failed_detail": "Failed to add auto message %Command_Name%! Please try again in a minute",
+	"command_error_failed": "Failed to add! Please try again in a minute",	
+		
+	"countdwn_added": ""The countdown has been added my brain! Use !countdown to see how long is left on it."",
+	"countdwn_edited": "The countdown has been edited in my brain! Use !countdown to see how long is left on it.",
+	"countdwn_error_format": "Error! Invalid format: Add a countdown by using !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_month": "Error! Invalid format (You must insert a month): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_day": "Error! Invalid format (You must insert a day): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_year": "Error! Invalid format (You must insert a year): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_hour": "Error! Invalid format (You must insert a hour): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_minute": "Error! Invalid format (You must insert a minute): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_second": "Error! Invalid format (You must insert a second): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_ampm": "Error! Invalid format (You must insert a AM/PM): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_ampm_value": "Error! Invalid format (AM/PM value must be either AM or PM): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",
+	"countdwn_error_format_numbers": "Error! Invalid format (Month/Day/Year/Hour/Minutes/Seconds must all be numbers!): !addCountDown month day year hour minutes seconds AM/PM  (Example: %Example%)",	
+	"countdwn_error_failed_detail": "Failed to add countdown! Please try again in a minute",
+	"countdwn_error_failed": "Failed to add! Please try again in a minute",	
+}
