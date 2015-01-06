@@ -1,4 +1,4 @@
-#MeowbotTranslations
+#Meowbot Translations
 ===================
 
 #Translate all messages on the left side of the message type name.
@@ -11,7 +11,9 @@ You would keep "reboot_incoming" as it is typed but convert the rest of the mess
 #Do not translate anything surrounded by %'s. These are keys used by the bot to replace with information.
 
 ##Example:
+```
 	"joinChannel_proccess": "Joining @%User_Name%'s channel!",
+	```
   
 You would keep %User_Name% but translate the "Joining channel" part of the message.
 
