@@ -94,7 +94,7 @@
 "countdwn_error_failed_detail": "Failed to add countdown! Please try again in a minute",
 "countdwn_error_failed": "Failed to add! Please try again in a minute",	
 
-"emote_added": "The emote !%Emote_Name% has been added to my brain!",
+"emote_added": "The emote @%Emote_Name% has been added to my brain!",
 "emote_error_format": "Error! Invalid format: Add emotes by using !addEmote name url",
 "emote_error_format_name": "Error! Invalid format (You must insert a name): Add emotes by using !addEmote name url",
 "emote_error_format_url": "Error! Invalid format (You must insert a url): Add emotes by using !addEmote name url",
