@@ -18,6 +18,7 @@ You would keep %User_Name% but translate the "Joining channel" part of the messa
 
 Commit your changes by changing the file en of the name from en_messages to your language code. This makes it so the bot knows which language the file is for.
 
+#Changes
 To submit your translations and updates, do a pull request on this rep and submit your changes via the pull request for me to look over and bring to the main version. Change the file name from en_messages to replace "en" with your language code that can be found here: http://msdn.microsoft.com/en-us/library/ms533052%28v=vs.85%29.aspx
 
 
