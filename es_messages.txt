@@ -50,11 +50,11 @@
 
 "channel_emotes_send_success": "Emotes del canal: %Emote_List%",
 "channel_emotes_send_failed_not_exist": "¡El canal no tiene emotes!",
-"channel_emotes_send_failed_display": "Unable to display channel emotes. You can view a full list here: http://meowbot.tv/Emoticons?%Channel_Name%",
+"channel_emotes_send_failed_display": "No puedo mostrar los emotes del canal. Puedes consultar una lista completa en: http://meowbot.tv/Emoticons?%Channel_Name%",
 
-"channel_timers_send_success": "Channel Timers: %Timer_List%",
-"channel_timers_send_failed_not_exist": "The channel has no timers!",
-"channel_timers_send_failed_display": "No puedo mostrar los emotes del canal. Puedes consultar una lista completa en: http://meowbot.tv/Timers?%Channel_Name%",
+"channel_timers_send_success": "Temporizadores del canal: %Timer_List%",
+"channel_timers_send_failed_not_exist": "¡El canal no tiene temporizadores",
+"channel_timers_send_failed_display": "No puedo mostrar los temporizadores del canal. Puedes consultar una lista completa en: http://meowbot.tv/Timers?%Channel_Name%",
 
 "channel_autoMessage_send_success": "Mensajes automáticos del canal: %Auto_Message_List%",
 "channel_autoMessage_send_failed_not_exist": "¡El canal no tiene mensajes automáticos!",
