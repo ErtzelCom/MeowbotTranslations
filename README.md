@@ -17,3 +17,6 @@ You would keep "reboot_incoming" as it is typed but convert the rest of the mess
 You would keep %User_Name% but translate the "Joining channel" part of the message.
 
 Commit your changes by changing the file en of the name from en_messages to your language code. This makes it so the bot knows which language the file is for.
+
+
+######Note: Please do not remove the opening and closing quotes or the comma after each closing quote. These are needed for when the file is converted back to json for the bot. Also, if any message requires quotes in it, you must type them as \" like it shows in the English version.
