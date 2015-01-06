@@ -1,0 +1,103 @@
+"reboot_incoming": "Over ~2 minutes zal ik opnieuw opstarten voor onderhoud. Dit onderhoud kan 5 tot 10 minuten duren. Ik kom automatisch terug als ik weer online ben.",
+"reboot_now": "Opnieuw opstarten voor onderhoud. Dit onderhoud kan 5 tot 10 minuten duren. Ik kom automatisch terug als ik weer online ben.",
+
+"joinChannel_proccess": "Bezig met het toetreden @%User_Name%s kanaal!",
+"joinChannel_success": "Ik ben het kanaal in!",
+"joinChannel_error_failed": "Het is niet gelukt om @%User_Name%s kanaal toe te treden!",
+"joinChannel_error_exists": "Hé, ik ben het, %Bot_Name%, ik ben al in het kanaal.",
+
+"leaveChannel_success": "Oké, ik zal het kanaal verlaten :c",
+"leaveChannel_switch": "Het kanaal verlaten. %Bot_Name% zal hier zo zijn!",
+
+"channel_follower_start_failed": "Niet gelukt om volgermeldingen te starten! Probeer het over een minuut nog een keer",
+"channel_follower_stop_failed": "Niet gelukt om volgermeldingen te stoppen! Probeer het over een minuut nog een keer",
+"channel_follower_last": "Nieuwste volger: @%User_Name%",
+"channel_follower_last_not_found": "Geen volgers gevonden!",
+"channel_follower_count": "Aantal volgers: %Follower_Count%",
+
+"channel_language_success": "De taal van dit kanaal is nu [%Language%]!",
+"channel_language_failed": "Niet gelukt om de taal te veranderen! Probeer het over een minuut nog een keer",
+"channel_language_failed_invalid": "De taal [%Language%] wordt nog niet ondersteund! Een lijst van ondersteunde talen is hier te vinden: http://www.meowbot.tv/Languages",
+
+"channel_poll_failed_already_on": "Er loopt al een enquête! Om de enquête vroegtijdig te stoppen, type !stopPoll",
+"channel_poll_failed_not_exist": "Er loopt op dit moment geen enquête!",
+
+"channel_blacklist_remove_success": "Dat woord of zinnetje is verwijdert van mijn blackouts",
+"channel_blacklist_remove_failed": "Dat woord of zinnetje bestaat niet in mijn blackouts",
+
+"channel_lottery_start_success": "Een loterij is begonnen! Om mee te doen, hoef je alleen maar %Lottery_Key% te zeggen.",
+"channel_lottery_stop_success": "De loterij is gestopt en zal geen nieuwe leden meer accepteren! Om een winnaar te kiezen, kan een admin of mod !rollLoterij typen",
+"channel_lottery_failed_not_exist": "Er is geen loterij bezig!",
+
+"channel_raffle_stop_success": "De verloting is gestopt en zal geen nieuwe leden meer accepteren! Om een winnaar te kiezen, kan een admin of mod !rollRaffle typen",
+"channel_raffle_failed_not_exist": "Er is geen verloting bezig!",
+
+"channel_payout_success": "Alle kijkers %Points_Name% zijn verhoogd met %Points_Amount%!",
+"channel_payout_decrease_success": "Alle kijkers %Points_Name% zijn verlaagd met %Points_Amount%!",
+"channel_payout_failed": "Fout bij het uitbetalen van beloningen! Bij sommige leden zijn misschien geen punten bijgeteld.",
+"channel_payout_decrease_failed": "Fout bij het weghalen van punten! Bij sommige leden zijn misschien geen punten afgetrokken .",
+"channel_payout_failed_not_found": "Fout. Geen leden gevonden!",
+
+"channel_random_viewer_success": "Ik heb willekeurig @%User_Name% gekozen van de lijst met kijkers!",
+"channel_random_viewer_failed": "Geen leden gevonden om uit te kiezen!",
+
+"channel_ignored_users_send_success": "Genegeerde leden: %User_List%",
+"channel_ignored_users_send_failed_not_exist": "Dit kanaal heeft geen genegeerde leden!",
+
+"channel_commands_send_success": "Kanaal Opdrachten: %Command_List%",
+"channel_commands_send_failed_not_exist": "Dit kanaal heeft geen opdrachten!",
+"channel_commands_send_failed_display": "Niet gelukt om kanaalopdrachten te weergeven. Een volledige lijst is hier te vinden: http://meowbot.tv/Commands?%Channel_Name%",
+
+"channel_emotes_send_success": "Kanaal Emotes: %Emote_List%",
+"channel_emotes_send_failed_not_exist": "Dit kanaal heeft geen emotes!",
+"channel_emotes_send_failed_display": "Niet gelukt om kanaalemotes te weergeven. Een volledige lijst is hier te vinden: http://meowbot.tv/Emoticons?%Channel_Name%",
+
+"channel_timers_send_success": "Kanaal Timers: %Timer_List%",
+"channel_timers_send_failed_not_exist": "Dit kanaal heeft geen timers!",
+"channel_timers_send_failed_display": "Niet gelukt om kanaaltimers te weergeven. Een volledige lijst is hier te vinden: http://meowbot.tv/Timers?%Channel_Name%",
+
+"channel_autoMessage_send_success": "Kanaal Automatische Berichten: %Auto_Message_List%",
+"channel_autoMessage_send_failed_not_exist": "Dit kanaal heeft geen automatische berichten!",
+"channel_autoMessage_send_failed_display": "Niet gelukt om de automatische berichten te weergeven. Een volledige lijst is hier te vinden: http://www.api.meowbot.tv/AutoMessages/%Channel_Name%",
+
+"general_error_own_channel": "Type opdrachten in je eigen kanaal, nadat %Bot_Name% is toegetreden. De enige opdrachten in dit kanaal zijn !join en !leave.",
+"general_error_failed_add": "Niet gelukt! Probeer het over een minuut nog een keer",
+
+"autoMessage_added": "Het automatische bericht %Auto_Message_Name% is toegevoegd aan mijn hersenen!",
+"autoMessage_error_format": "Fout! Ongeldig formaat: Voeg een automatisch bericht toe met !addAutoMessage naam bericht",
+"autoMessage_error_format_name": "Fout! Ongeldig formaat (Je moet een naam invoegen): Voeg een automatisch bericht toe met !addAutoMessage naam bericht",
+"autoMessage_error_format_message": "Fout! Ongeldig formaat (Je moet een bericht invoegen): Voeg een automatisch bericht toe met !addAutoMessage naam bericht",
+"autoMessage_error_already_found": "Het automatische bericht %Auto_Message_Name% zit al in mijn hersenen!",
+"autoMessage_error_failed_detail": "Niet gelukt om het automatische bericht %Auto_Message_Name% toe te voegen! Probeer het over een minuut nog een keer",
+"autoMessage_error_failed": "Niet gelukt om toe te voegen! Probeer het over een minuut nog een keer",
+
+"command_added": "De opdracht !%Command_Name% is toegevoegd aan mijn hersenen!",
+"command_error_format": "Fout! Ongeldig formaat: Voeg een opdracht toe met !addCommand naam bericht",
+"command_error_format_name": "Fout! Ongeldig formaat (Je moet een naam invoegen): Voeg opdrachten toe met !addCommand naam bericht",
+"command_error_format_message": "Fout! Ongeldig formaat (Je moet een bericht invoegen): Voeg opdrachten toe met !addCommand naam bericht",
+"command_error_already_found": "De opdracht !%Command_Name% zit al in mijn hersenen!",
+"command_error_failed_detail": "Niet gelukt om de opdracht %Command_Name% toe te voegen! Probeer het over een minuut nog een keer",
+"command_error_failed": "Niet gelukt om toe te voegen! Probeer het over een minuut nog een keer",
+
+"countdwn_added": ""De countdown is toegevoegd aan mijn hersenen! Gebruik !countdown om te zien hoelang het nog doorgaat"",
+"countdwn_edited": "De countdown is aangepast in mijn hersenen! Gebruik !countdown om te zien hoelang het nog doorgaat.",
+"countdwn_error_format": "Fout! Ongeldig formaat: Voeg een countdown toe met !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_month": "Fout! Ongeldig formaat (Je moet een maand-aantal invoegen): !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_day": "Fout! Ongeldig formaat (Je moet een dag-aantal invoegen): !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_year": "Fout! Ongeldig formaat (Je moet een jaar-aantal invoegen): !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_hour": "Fout! Ongeldig formaat (Je moet een uur-aantal invoegen): !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_minute": "Fout! Ongeldig formaat (Je moet een minuut-aantal invoegen): !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_second": "Fout! Ongeldig formaat (Je moet een seconde-aantal invoegen): !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_ampm": "Fout! Ongeldig formaat (Je moet AM/PM toevoegen): !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_ampm_value": "Fout! Ongeldig formaat (AM/PM waarde moet of AM, of PM zijn): !addCountDown maand dag jaar uur minuut seconde AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_format_numbers": "Fout! Ongeldig formaat (Maand/Dag/Jaar/Uur/Minuut/Seconde moeten allemaal getallen zijn!): !addCountDown maand dag jaar uur minuut seconde AM/PM AM/PM (Voorbeeld: %Example%)",
+"countdwn_error_failed_detail": "Niet gelukt om een countdown toe te voegen! Probeer het over een minuut nog een kee",
+"countdwn_error_failed": "Niet gelukt om toe te voegen! Probeer het over een minuut nog een keer", 
+
+"emote_added": "De emote !%Emote_Name% is toegevoegd aan mijn hersenen!",
+"emote_error_format": "Fout! Ongeldig formaat: Voeg emotes toe met !addEmote naam url",
+"emote_error_format_name": "Fout! Ongeldig formaat (Je moet een naam invoegen): Voeg emotes toe met !addEmote naam url",
+"emote_error_format_url": "Fout! Ongeldig formaat (Je moet een url invoegen): Voeg emotes toe met !addEmote naam url",
+"emote_error_already_found": "De emote !%Emote_Name% zat al in mijn hersenen!",
+"emote_error_failed_detail": "Niet gelukt om @%Emote_Name% toe te voegen! Probeer het over een minuut nog een keer",
+"emote_error_failed": "Niet gelukt om toe te voegen! Probeer het over een minuut nog een keer", 
