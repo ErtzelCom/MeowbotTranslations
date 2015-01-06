@@ -12,8 +12,8 @@ You would keep "reboot_incoming" as it is typed but convert the rest of the mess
 
 ##Example:
 ```
-	"joinChannel_proccess": "Joining @%User_Name%'s channel!",
-	```
+"joinChannel_proccess": "Joining @%User_Name%'s channel!",
+```
   
 You would keep %User_Name% but translate the "Joining channel" part of the message.
 
