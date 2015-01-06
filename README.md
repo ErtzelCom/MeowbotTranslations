@@ -4,7 +4,9 @@
 #Translate all messages on the left side of the message type name.
 
 ##Example:
-	"reboot_now": "Rebooting for maintenance. Maintenance can take around 5-10 minutes. I will auto-join the channel once I'm back online.",
+```
+"reboot_now": "Rebooting for maintenance. Maintenance can take around 5-10 minutes. I will auto-join the channel once I'm back online.",
+```
 	
 You would keep "reboot_incoming" as it is typed but convert the rest of the message starting with "Rebooting for maintenance"
 
