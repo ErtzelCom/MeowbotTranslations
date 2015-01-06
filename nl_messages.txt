@@ -94,7 +94,7 @@
 "countdwn_error_failed_detail": "Niet gelukt om een countdown toe te voegen! Probeer het over een minuut nog een kee",
 "countdwn_error_failed": "Niet gelukt om toe te voegen! Probeer het over een minuut nog een keer", 
 
-"emote_added": "De emote !%Emote_Name% is toegevoegd aan mijn hersenen!",
+"emote_added": "De emote @%Emote_Name% is toegevoegd aan mijn hersenen!",
 "emote_error_format": "Fout! Ongeldig formaat: Voeg emotes toe met !addEmote naam url",
 "emote_error_format_name": "Fout! Ongeldig formaat (Je moet een naam invoegen): Voeg emotes toe met !addEmote naam url",
 "emote_error_format_url": "Fout! Ongeldig formaat (Je moet een url invoegen): Voeg emotes toe met !addEmote naam url",
