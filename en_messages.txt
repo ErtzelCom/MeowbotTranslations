@@ -34,8 +34,8 @@
 	
 "channel_payout_success": "All viewers %Points_Name% have been increased by %Points_Amount%!",
 "channel_payout_decrease_success": "All viewers %Points_Name% have been decreased by %Points_Amount%!",
-"channel_payout_failed": "Error with rewarding payouts! Some users may not of been given points.",
-"channel_payout_decrease_failed": "Error with removing points! Some users may not of had their points removed.",
+"channel_payout_failed": "Error with rewarding payouts! Some users may not have been given points.",
+"channel_payout_decrease_failed": "Error with removing points! Some users may not have had their points removed.",
 "channel_payout_failed_not_found": "Error No users found!",
 
 "channel_random_viewer_success": "I randomly selected @%User_Name% from the viewer list!",
