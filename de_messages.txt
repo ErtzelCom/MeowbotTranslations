@@ -1,0 +1,103 @@
+"reboot_incoming": "In ~2 Minuten werde ich wegen Wartungsarbeiten neu gestartet. Die Arbeiten dauern um die 5-10 Minuten. Ich werde den Chat automatisch neu betreten wenn ich wieder Online bin.",
+"reboot_now": "Neustart wegen Wartungsarbeiten. Die Arbeiten dauern um die 5-10 Minuten. Ich werde den Chat automatisch neu betreten wenn ich wieder Online bin.",
+
+"joinChannel_proccess": "Betrete @%User_Name%'s Chat!",
+"joinChannel_success": "Ich habe den Chat betreten!",
+"joinChannel_error_failed": "Fehler beim betreten von @%User_Name%'s Chat!",
+"joinChannel_error_exists": "Hi, ich bin es %Bot_Name%, Ich bin bereits im Chat!",
+
+"leaveChannel_success": "Okay, Ich werde den Chat verlassen :c",
+"leaveChannel_switch": "Verlasse den Chat. %Bot_Name% wird bald da sein.",
+
+"channel_follower_start_failed": "Fehler beim starten der Follower Benachrichtigung! Bitte versuche es in einer Minute erneut",
+"channel_follower_stop_failed": "Fehler beim stoppen der Follower Benachrichtigung! Bitte versuche es in einer Minute erneut",
+"channel_follower_last": "Letzter Follower: @%User_Name%",
+"channel_follower_last_not_found": "Keine Follower gefunden!",
+"channel_follower_count": "Derzeitige Follower: %Follower_Count%",
+	
+"channel_language_success": "Die Chat Sprache wurde zu [%Language%] geändert!",
+"channel_language_failed": "Fehler beim wechseln der Sprache! Bitte versuche es in einer Minute erneut",
+"channel_language_failed_invalid": "Die Sprache [%Language%] wird noch nicht unterstützt! Unter http://www.meowbot.tv/Languages bekommst du eine Liste mit allen Unterstützen Sprachen",
+
+"channel_poll_failed_already_on": "Es läuft bereits eine Umfrage! Um die Umfrage früher zu beenden gebe !stopPoll ein", 
+"channel_poll_failed_not_exist": "Derzeit läuft keine Umfrage",
+
+"channel_blacklist_remove_success": "Das Wort oder der Satz wurde von meiner Schwarzen Liste entfernt",
+"channel_blacklist_remove_failed": "Das Wort oder der Satz befindet sich nicht auf der Schwarzen Liste",
+
+"channel_lottery_start_success": "Ein Gewinnspiel hat gestartet! Zum teilnehmen gebe einfach  %Lottery_Key%  einmal in den Chat ein...",
+"channel_lottery_stop_success": "Das Gewinnspiel ist beendet und es werden keine neuen Teilnehmer angenommen! Um einen Gewinner zu bestimmen kann jeder Admin oder Moderator !rollLottery eingeben",
+"channel_lottery_failed_not_exist": "Es findet kein Gewinnspiel statt!",
+
+"channel_raffle_stop_success": "Die Verlosung ist beendet und es werden keine neuen Teilnehmer angenommen! Um einen Gewinner zu bestimmen kann jeder Admin oder Moderator !rollRaffle eingeben",
+"channel_raffle_failed_not_exist": "Es findet keine Verlosung statt!",
+	
+"channel_payout_success": "Alle Zuschauer %Points_Name% wurden um %Points_Amount% erhöht!",
+"channel_payout_decrease_success": "Alle Zuschauer %Points_Name% wurden um %Points_Amount% verringert!",
+"channel_payout_failed": "Fehler bei der Auszahlung! Manche Benutzer haben womöglich keine Punkte erhalten",
+"channel_payout_decrease_failed": "Fehler beim Entfernen der Punkte! Manche Benutzer haben womöglich keine Punkte entfernt bekommen",
+"channel_payout_failed_not_found": "Fehler: Kein Benutzer gefunden!",
+
+"channel_random_viewer_success": "Ich habe zufällig @%User_Name% von der Zuschauerliste ausgewählt!",
+"channel_random_viewer_failed": "Keine Benutzer zum wählen gefunden!",
+
+"channel_ignored_users_send_success": "Ignorierte Benutzer: %User_List%",
+"channel_ignored_users_send_failed_not_exist": "Dieser Chat hat keine Ignorierten Benutzer!",
+
+"channel_commands_send_success": "Chat Befehle: %Command_List%",
+"channel_commands_send_failed_not_exist": "Dieser Chat hat keine eigenen Befehle",
+"channel_commands_send_failed_display": "Fehler beim Anzeigen der eigenen Chat Befehle. Du kannst dir hier eine komplette Liste anschauen: http://meowbot.tv/Commands?%Channel_Name%",
+
+"channel_emotes_send_success": "Chat Emotes: %Emote_List%",
+"channel_emotes_send_failed_not_exist": "Dieser Chat hat keine eigenen Emotes!",
+"channel_emotes_send_failed_display": "Fehler beim Anzeigen der eigenen Chat Emotes. Du kannst dir hier eine komplette Liste anschauen: http://meowbot.tv/Emoticons?%Channel_Name%",
+
+"channel_timers_send_success": "Chat Zeitgeber: %Timer_List%",
+"channel_timers_send_failed_not_exist": "Dieser Chat hat keine Zeitgeber!",
+"channel_timers_send_failed_display": "Fehler beim Anzeigen der Zeitgeber. Du kannst dir hier eine komplette Liste anschauen: http://meowbot.tv/Timers?%Channel_Name%",
+
+"channel_autoMessage_send_success": "Automatische Benachrichtigungen des Chat's: %Auto_Message_List%",
+"channel_autoMessage_send_failed_not_exist": "Dieser Chat hat keine Automatischen Benachrichtigungen!",
+"channel_autoMessage_send_failed_display": "Fehler beim Anzeigen der Automatischen Benachrichtigungen. Du kannst dir hier eine komplette Liste anschauen: http://www.api.meowbot.tv/AutoMessages/%Channel_Name%",
+
+"general_error_own_channel": "Bitte gebe eigene Befehle ein, nachdem %Bot_Name% den Chat betreten hat. Die einzigen Befehle sind zurzeit !join und !leave.",
+"general_error_failed_add": "Fehler beim Hinzufügen! Bitte versuche es in einer Minute erneut",	
+
+"autoMessage_added": "Die Automatische Benachrichtigung %Auto_Message_Name% wurde meinen Gehirn hinzugefügt!",
+"autoMessage_error_format": "Fehler! Falsches Format: Füge eine Benachrichtigung mit '!addAutoMessage Name Nachricht' hinzu",
+"autoMessage_error_format_name": "Fehler! Falsches Format (Du musst einen Namen eingeben): Füge eine Benachrichtigung mit '!addAutoMessage Name Nachricht' hinzu",
+"autoMessage_error_format_message": "Fehler! Falsches Format (Du musst eine Nachricht hinzufügen): Füge eine Benachrichtigung mit '!addAutoMessage Name Nachricht' hinzu",
+"autoMessage_error_already_found": "Die Automatische Benachrichtigung %Auto_Message_Name% wurde bereits in meinen Gehirn hinzugefügt!",
+"autoMessage_error_failed_detail": "Fehler beim hinzufügen der Automatischen Benachrichtigung %Auto_Message_Name%! Bitte versuche es in einer Minute erneut",
+"autoMessage_error_failed": "Fehler beim Hinzufügen! Bitte versuche es in einer Minute erneut",		
+
+"command_added": "Der Befehl !%Command_Name% wurde meinen Gehirn hinzugefügt!",
+"command_error_format": "Fehler! Falsches Format: Füge Befehle mit '!addCommand Name Nachricht' hinzu",
+"command_error_format_name": "Fehler! Falsches Format (Du musst einen Namen eingeben): Füge Befehle mit '!addCommand Name Nachricht' hinzu",
+"command_error_format_message": "Fehler! Falsches Format (Du musst eine Nachricht hinzufügen): Füge Befehle mit '!addCommand Name Nachricht' hinzu",
+"command_error_already_found": "Der Befehl !%Command_Name% wurde bereits in meinen Gehirn hinzugefügt!",
+"command_error_failed_detail": "Fehler beim Hinzufügen von !%Command_Name%! Bitte versuche es in einer Minute erneut",
+"command_error_failed": "Fehler beim Hinzufügen! Bitte versuche es in einer Minute erneut",	
+	
+"countdwn_added": ""Der Countdown wurde meinen Gehirn hinzugefügt! Benutze !Countdown um zu sehen wie viel Zeit noch bleibt"",
+"countdwn_edited": "Der Countdown wurde in meinen Gehirn bearbeitet! Benutze !Countdown um zu sehen wie viel Zeit noch bleibt",
+"countdwn_error_format": "Fehler! Falsches Format: Benutze !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_month": "Fehler! Falsches Format (Du muss einen Monat hinzufügen): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_day": "Fehler! Falsches Format (Du musst einen Tag hinzufügen): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_year": "Fehler! Falsches Format (Du musst ein Jarh hinzufügen): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_hour": "Fehler! Falsches Format (Du musst einen Stunde hinzufügen): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_minute": "Fehler! Falsches Format (Du musst eine Minute hinzufügen): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_second": "Fehler! Falsches Format (Du musst eine Sekunde hinzufügen): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_ampm": "Fehler! Falsches Format (Du musst AM/PM angeben): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_ampm_value": "Fehler! Falsches Format (AM/PM muss AM oder PM sein): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",
+"countdwn_error_format_numbers": "Fehler! Falsches Format (Monat/Tag/Jahr/Stunde/Minute/Sekunde müssen alle Zahlen sein!): !addCountDown Monat Tag Jahr Stunde Minute Sekunde AM/PM  (Beispiel: %Example%)",	
+"countdwn_error_failed_detail": "Fehler beim Hinzufügen des Countdowns! Bitte versuche es in einer Minute erneut",
+"countdwn_error_failed": "Fehler beim Hinzufügen! Bitte versuche es in einer Minute erneut",	
+
+"emote_added": "Der Emote @%Emote_Name% wurde meinen Gehirn hinzugefügt!",
+"emote_error_format": "Fehler! Falsches Format: Füge Emotes mit '!addEmote Name URL' hinzu",
+"emote_error_format_name": "Fehler! Falsches Format (Du musst einen Namen eingeben): Füge Emotes mit '!addEmote Name URL' hinzu",
+"emote_error_format_url": "Fehler! Falsches Format (Du musst eine URL hinzufügen): Füge Emotes mit '!addEmote Name URL' hinzu",
+"emote_error_already_found": "Der Emote !%Emote_Name% wurde bereits in meinen Gehirn hinzugefügt!",
+"emote_error_failed_detail": "Fehler beim Hinzufügen von @%Emote_Name%! Bitte versuche es in einer Minute erneut",
+"emote_error_failed": "Fehler beim Hinzufügen! Bitte versuche es in einer Minute erneut",	
